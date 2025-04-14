@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import { LocationCoords } from '../utils/types';
-import { FaSearchLocation, FaSpinner, FaTimesCircle } from 'react-icons/fa';
+import { FaSearchLocation, FaSpinner } from 'react-icons/fa';
 
 interface NominatimResult {
   place_id: number;
